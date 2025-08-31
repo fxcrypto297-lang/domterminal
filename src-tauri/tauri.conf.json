@@ -1,0 +1,21 @@
+{
+  "build": {
+    "beforeBuildCommand": "",
+    "beforeDevCommand": "",
+    "devPath": "../index.html",
+    "distDir": "../index.html"
+  },
+  "package": {
+    "productName": "DomTerminal",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "DomTerminal",
+        "width": 1000,
+        "height": 700
+      }
+    ]
+  }
+}
